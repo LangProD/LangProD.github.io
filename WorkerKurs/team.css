@@ -1,0 +1,47 @@
+.team{
+    margin: 4em 0;
+    position: relative;  
+   }
+   .team h1{
+    color:#F97300;
+    margin: 2em; 
+   }
+   .team .item{
+    position: relative;
+   }
+   .team .des{
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+   }
+   .team .item:hover .des{
+    height: 100%;
+    background:#f973007d;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+   }
+   .team span{
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    text-shadow: 0 0 2px rgb(153, 20, 20), 
+                 /* выпуклость надписи */
+                 -1px -1px 0 hsl(80, 70%, 35%),
+                 -2px -2px 1px hsl(80, 70%, 35%),
+                 /* переход к подложке */  
+                 -2px -2px 2px hsl(80, 10%, 15%), 
+                 /* подложка */                            
+                 -2px -2px 0 7px hsl(60, 80%, 95%),
+                 -3px -3px 0 7px hsl(60, 10%, 65%),
+                 -4px -4px 0 7px hsl(60, 10%, 65%),
+                 -5px -5px 0 7px hsl(60, 10%, 65%),
+                 -6px -6px 0 7px hsl(60, 10%, 65%),
+                 /* тень подложки */                            
+                 -7px -7px 4px 8px hsl(60, 10%, 40%),
+                 -8px -8px 6px 9px hsl(60, 10%, 55%);
+   }
+   
